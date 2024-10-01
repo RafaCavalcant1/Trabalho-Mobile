@@ -4,7 +4,7 @@ Este projeto consiste em um aplicativo móvel, chamado **PotterDex** que explora
 
 ## Equipe de Desenvolvimento
 
-- **João Vitor Ferreira Lima dos Santos**
+- **João Victor Ferreira Lima dos Santos**
 - **Mickeliny Mirtes de Sena**
 - **Rafaela Silva Cavalcanti Pereira**
 - **Robério Pereira de Albuquerque Neto**
