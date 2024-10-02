@@ -17,7 +17,10 @@ Este projeto consiste em um aplicativo móvel, chamado **PotterDex** que explora
 <h4>Figma 🎨</h4>
 - https://www.figma.com/design/ZzRF3LswOfUFtBateaRano/harry-potter-mobile?node-id=0-1&t=SNg2Hhw9U0bcDPPu-1
 
-## Documento de Requisitos 📑
+<h4>Documento de Requisitos 📑</h4>
+- https://github.com/user-attachments/files/17232225/Documento_Requisitos.pdf
+
+##
 
 ### 1.0 Funcionalidades ✨
 - 📝 **Interface de cadastro e login de usuários.**
