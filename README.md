@@ -20,6 +20,10 @@ Este projeto consiste em um aplicativo móvel, chamado **PotterDex** que explora
 <h4>Documento de Requisitos 📑</h4>
 - https://github.com/user-attachments/files/17232225/Documento_Requisitos.pdf
 
+<h4>Video Redux 🎬</h4>
+- https://youtu.be/f3dPppnImog
+
+
 ##
 
 ### 1.0 Funcionalidades ✨
