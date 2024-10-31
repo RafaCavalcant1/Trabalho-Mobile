@@ -51,4 +51,30 @@
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFC107"
+            android:text="Entrar"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_weight="1"
+            android:backgroundTint="#000000"
+            android:text="Cadastre-se"
+            android:textColor="#FFC107" />
+    </LinearLayout>
 </LinearLayout>
