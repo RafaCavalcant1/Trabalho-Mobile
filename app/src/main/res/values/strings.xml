@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">harryP</string>
+    <string name="logo_description">Logo da escola de harry potter</string>
+    <string name="entrar">Entrar</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="repetir_senha">Repita a sua senha</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="login_error">Usuário ou senha inválidos</string>
+    <string name="cadastro_error">Falha na criação do seu usuário! Tente novamente por favor!</string>
+    <string name="email">Email</string>
+    <string name="voltar">Voltar</string>
+    <string name="hobby">Hobby</string>
+    <string name="menu">Menu</string>
+    <string name="pocoes">Poções</string>
+    <string name="gerador">Gerador</string>
+    <string name="biblioteca">Biblioteca</string>
+    <string name="filme">Filme</string>
+
+</resources>
