@@ -7,15 +7,16 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.harryp.ui.home.MainActivity
 import com.example.harryp.R
 import com.example.harryp.databinding.ActivityLoginBinding
+import com.example.harryp.ui.home.MainActivity
 import com.google.firebase.auth.FirebaseAuth
 
 class LoginActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityLoginBinding
     private var auth: FirebaseAuth? = null
+    private val viewModel = AuthViewModel()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,22 +37,18 @@ class LoginActivity : AppCompatActivity() {
         binding.buttonLogin.setOnClickListener{
             val email = binding.usernameEditText.text.toString()
             val senha = binding.passwordEditText.text.toString()
-
-            if(email.isEmpty() || senha.isEmpty()){
-                Toast.makeText(this@LoginActivity, getString(R.string.login_error), Toast.LENGTH_SHORT).show()
-            }
-            else{
-                auth?.signInWithEmailAndPassword(
-                    email,
-                    senha
-                )?.addOnFailureListener {
-                    Toast.makeText(this@LoginActivity, getString(R.string.login_error), Toast.LENGTH_SHORT).show()
-                }?.addOnSuccessListener {
+            viewModel.login(
+                email,
+                senha,
+                onSuccess = {
                     val intent = Intent(this@LoginActivity, MainActivity::class.java)
                     startActivity(intent)
                     finish()
+                },
+                onFailure = {
+                    Toast.makeText(this@LoginActivity, getString(R.string.login_error), Toast.LENGTH_SHORT).show()
                 }
-            }
+            )
         }
 
         binding.buttonRegister.setOnClickListener {

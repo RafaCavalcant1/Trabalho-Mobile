@@ -17,16 +17,27 @@
             android:exported="false" />
         <activity
             android:name=".ui.auth.LoginActivity"
-            android:exported="true" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".ui.home.MainActivity"
-            android:exported="false"/>
+            android:exported="true" />
+        <activity
+            android:name=".ui.home.house.HousesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.ingredients.IngredientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.elixirs.ElixirsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.spell.SpellActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

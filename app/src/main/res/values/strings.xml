@@ -13,9 +13,17 @@
     <string name="voltar">Voltar</string>
     <string name="hobby">Hobby</string>
     <string name="menu">Menu</string>
-    <string name="pocoes">Poções</string>
-    <string name="gerador">Gerador</string>
-    <string name="biblioteca">Biblioteca</string>
-    <string name="filme">Filme</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="spells">Spells</string>
+    <string name="houses">Houses</string>
+    <string name="elixirs">Elixirs</string>
+    <string name="sair">Sair</string>
+    <string name="falhaInfoUser">Falha ao carregar as informações do usuário</string>
+    <string name="error_get_houses">Erro ao carregar a lista de casas</string>
+    <string name="error_get_ingredients">Erro ao carregar a lista de ingredientes</string>
+    <string name="error_get_elixirs">Erro ao carregar a lista de porção</string>
+    <string name="error_get_spells">Erro ao carregar a lista de feitiços</string>
+
+
 
 </resources>
