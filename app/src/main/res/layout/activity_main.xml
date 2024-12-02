@@ -20,7 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.828"
-        app:srcCompat="@drawable/potions" />
+        app:srcCompat="@drawable/ingredient" />
 
     <ImageButton
         android:id="@+id/spellsImagem"
@@ -34,7 +34,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.828"
-        app:srcCompat="@drawable/movies" />
+        app:srcCompat="@drawable/spells" />
 
     <TextView
         android:id="@+id/spells"
@@ -57,7 +57,7 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.739"
+        app:layout_constraintHorizontal_bias="0.753"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.835" />
@@ -101,7 +101,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.569"
-        app:srcCompat="@drawable/gerador" />
+        app:srcCompat="@drawable/potions" />
 
     <ImageButton
         android:id="@+id/housesImagem"
@@ -115,7 +115,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.569"
-        app:srcCompat="@drawable/books" />
+        app:srcCompat="@drawable/houses" />
 
     <TextView
         android:id="@+id/houses"
@@ -138,10 +138,10 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.744"
+        app:layout_constraintHorizontal_bias="0.727"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.61" />
+        app:layout_constraintVertical_bias="0.609" />
 
     <TextView
         android:id="@+id/sair"
@@ -163,7 +163,7 @@
         android:layout_height="24dp"
         android:layout_marginStart="372dp"
         android:background="#00FFFFFF"
-        android:src="@drawable/sair"
+        android:src="@drawable/leave"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

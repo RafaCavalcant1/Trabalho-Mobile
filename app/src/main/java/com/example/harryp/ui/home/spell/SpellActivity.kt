@@ -26,7 +26,7 @@ class SpellActivity : AppCompatActivity() {
         }
 
         val recyclerView: RecyclerView = findViewById(R.id.recyclerView)
-        recyclerView.layoutManager = GridLayoutManager(this, 2) // 2 colunas
+        recyclerView.layoutManager = GridLayoutManager(this, 1) // 2 colunas
     }
 
     private fun setUpObservers() {
