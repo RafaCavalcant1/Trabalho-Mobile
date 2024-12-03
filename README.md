@@ -78,7 +78,7 @@ Este projeto consiste em um aplicativo móvel, chamado **PotterDex** que explora
 3. Após o cadastro, o usuário é redirecionado à tela de login para acessar o sistema.
 4. O usuário insere seu email e senha para fazer login.
 
-#### 4.2 Fluxo do Menu
+#### 4.2 Fluxo do Menu#
 1. Após fazer login o usuário é direcionado para aba de menu onde contém as funcionalidades que ele pode navegar (Poções, Gerador, Biblioteca, Filmes)
 2. Ao clicar em alguma dessas opções, seguir respectivamente os requisitos funcionais 2.2 até o 2.5.
 
