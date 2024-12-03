@@ -33,6 +33,7 @@ class SpellActivity : AppCompatActivity() {
         viewModel.spells.observe(this) { spells ->
             spells.forEach {
                 Log.i("SPELL TAG", it.name)
+                Log.i("SPELL TAG", it.effect)
             }
 
             val adapter = SpellAdapter(spells)
