@@ -27,7 +27,7 @@ class ElixirsActivity: AppCompatActivity() {
         }
 
         val recyclerView: RecyclerView = findViewById(R.id.recyclerView)
-        recyclerView.layoutManager = GridLayoutManager(this, 2)
+        recyclerView.layoutManager = GridLayoutManager(this, 1)
     }
 
     private fun setUpObservers() {

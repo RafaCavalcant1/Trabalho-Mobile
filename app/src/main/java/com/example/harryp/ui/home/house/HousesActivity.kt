@@ -25,13 +25,13 @@ class HousesActivity : AppCompatActivity() {
         }
 
         val recyclerView: RecyclerView = findViewById(R.id.recyclerView)
-        recyclerView.layoutManager = GridLayoutManager(this, 2)
+        recyclerView.layoutManager = GridLayoutManager(this, 1)
     }
 
     private fun setUpObservers() {
         viewModel.houses.observe(this) { houses ->
             houses.forEach {
-                Log.i("HOUSE TAG", it.name + " - " + it.founder)
+                Log.i("HOUSE TAG", it.name)
                 Log.i("HOUSE TAG", it.houseColours)
             }
             //binding.response.text = houses.toString() // Comentado para usar o RecyclerView

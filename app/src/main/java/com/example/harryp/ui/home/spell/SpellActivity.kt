@@ -26,13 +26,14 @@ class SpellActivity : AppCompatActivity() {
         }
 
         val recyclerView: RecyclerView = findViewById(R.id.recyclerView)
-        recyclerView.layoutManager = GridLayoutManager(this, 2) // 2 colunas
+        recyclerView.layoutManager = GridLayoutManager(this, 1) // 2 colunas
     }
 
     private fun setUpObservers() {
         viewModel.spells.observe(this) { spells ->
             spells.forEach {
                 Log.i("SPELL TAG", it.name)
+                Log.i("SPELL TAG", it.effect)
             }
 
             val adapter = SpellAdapter(spells)

@@ -13,6 +13,7 @@ class ElixirsAdapter(private val elirixs: List<Elixirs>) :
 
     class ElirixsViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val elirixsNameTextView: TextView = itemView.findViewById(R.id.elirixsNameTextView)
+        val elirixEffect: TextView = itemView.findViewById(R.id.elirixsEffect)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ElirixsViewHolder {
@@ -24,6 +25,7 @@ class ElixirsAdapter(private val elirixs: List<Elixirs>) :
     override fun onBindViewHolder(holder: ElirixsViewHolder, position: Int) {
         val currentElirixs = elirixs[position]
         holder.elirixsNameTextView.text = currentElirixs.name
+        holder.elirixEffect.text = currentElirixs.effect
     }
 
     override fun getItemCount(): Int {

@@ -14,6 +14,7 @@ class SpellAdapter (private val spells: List<Spells>) :
 
     class SpellsViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val spellsNameTextView: TextView = itemView.findViewById(R.id.spellsNameTextView)
+        val spellsEffect: TextView = itemView.findViewById(R.id.spellsEffect)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SpellsViewHolder {
@@ -25,6 +26,7 @@ class SpellAdapter (private val spells: List<Spells>) :
     override fun onBindViewHolder(holder: SpellsViewHolder, position: Int) {
         val currentSpell = spells[position]
         holder.spellsNameTextView.text = currentSpell.name
+        holder.spellsEffect.text = currentSpell.effect
     }
 
     override fun getItemCount(): Int {
