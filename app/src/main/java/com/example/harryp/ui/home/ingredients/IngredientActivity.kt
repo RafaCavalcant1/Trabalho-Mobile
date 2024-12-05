@@ -25,9 +25,8 @@ class IngredientActivity: AppCompatActivity() {
             finish()
         }
 
-        // Configuração do RecyclerView
         val recyclerView: RecyclerView = findViewById(R.id.recyclerView)
-        recyclerView.layoutManager = GridLayoutManager(this, 2) // 2 colunas
+        recyclerView.layoutManager = GridLayoutManager(this, 2)
     }
 
     private fun setUpObservers() {
@@ -37,7 +36,7 @@ class IngredientActivity: AppCompatActivity() {
             }
 
             val adapter = IngredientAdapter(ingredients)
-            binding.recyclerView.adapter = adapter // Usando View Binding para acessar o RecyclerView
+            binding.recyclerView.adapter = adapter
         }
         viewModel.errorLoadingHouses.observe(this) {
             Log.e("ERROR TAG", getString(it))

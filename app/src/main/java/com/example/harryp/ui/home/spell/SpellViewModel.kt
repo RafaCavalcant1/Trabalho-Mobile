@@ -3,7 +3,6 @@ package com.example.harryp.ui.home.spell
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.harryp.model.Ingredient
 import com.example.harryp.model.Spells
 import com.example.harryp.repository.Repository
 

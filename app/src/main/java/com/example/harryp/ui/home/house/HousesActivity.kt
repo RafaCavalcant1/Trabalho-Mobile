@@ -34,9 +34,8 @@ class HousesActivity : AppCompatActivity() {
                 Log.i("HOUSE TAG", it.name)
                 Log.i("HOUSE TAG", it.houseColours)
             }
-            //binding.response.text = houses.toString() // Comentado para usar o RecyclerView
             val adapter = HouseAdapter(houses)
-            binding.recyclerView.adapter = adapter // Usando View Binding para acessar o RecyclerView
+            binding.recyclerView.adapter = adapter
         }
         viewModel.errorLoadingHouses.observe(this) {
             Log.e("ERROR TAG", getString(it))

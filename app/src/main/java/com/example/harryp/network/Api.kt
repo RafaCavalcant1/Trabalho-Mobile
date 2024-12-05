@@ -21,4 +21,3 @@ interface Api {
     @GET("/Spells")
     fun getSpells(): Call<List<Spells>>
 }
-

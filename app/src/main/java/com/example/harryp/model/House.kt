@@ -1,8 +1,5 @@
 package com.example.harryp.model
 
-import android.os.Parcelable
-
-//@Parcelize
 data class House(
     val animal: String,
     val commonRoom: String,
@@ -14,4 +11,4 @@ data class House(
     val id: String,
     val name: String,
     val traits: List<Trait>
-)//: Parcelable
+)
