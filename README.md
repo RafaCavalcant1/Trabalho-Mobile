@@ -29,6 +29,8 @@ Este projeto consiste em um aplicativo móvel, chamado **PotterDex** que explora
 <h4>Video Redux 🎬</h4>
 - https://youtu.be/f3dPppnImog
 
+<h4>Video Harry Potter 🧙‍♂️</h4>
+- https://youtu.be/4wYyLtqrYm8?si=uw6JNAwPJhpC3z_6
 
 ##
 
